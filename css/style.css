@@ -74,6 +74,12 @@
 
 .topbar .top-info {
     letter-spacing: 1px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.topbar .top-info small {
+    font-size: 15px;
 }
 
 .topbar .top-link {
@@ -107,6 +113,10 @@
 
 
 /*** Navbar Start ***/
+.logo-img,
+.footer-logo{
+    max-width: 90px;
+}
 .navbar .navbar-nav {
     padding: 15px 0;
 }
@@ -299,6 +309,24 @@
 
     .carousel-item p {
         font-size: 14px !important;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 60px;
+    }
+    .carousel-caption{
+        right: 12%;
+        left: 12%;
+    }
+    #carouselId .carousel-indicators li{
+        width: 20px;
+        height: 0px
+    }
+}
+@media (max-width: 412px) {
+    .carousel-caption .carousel-content a{
+        margin: 0px 0px 8px !important;
+        display: inline-block;
     }
 }
 
