@@ -117,6 +117,13 @@
 .footer-logo{
     max-width: 90px;
 }
+.mobile-phoneno-center{
+    font-size: 28px;
+    line-height: 1.2;
+}
+.mobile-phoneno-center span{
+    font-size: 22px;
+}
 .navbar .navbar-nav {
     padding: 15px 0;
 }
