@@ -113,13 +113,26 @@
 
 
 /*** Navbar Start ***/
+.navbar-brand{
+    margin-right: 0px;
+}
+.navbar-dark .navbar-toggler{
+    border: 0px;
+}
 .logo-img,
 .footer-logo{
     max-width: 90px;
+    max-height: 80px;
+}
+.footer-logo{
+    background: #ffffff2e;
 }
 .mobile-phoneno-center{
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1.2;
+    width: 190px;
+    font-family: 'Saira';
+    font-style: italic;
 }
 .mobile-phoneno-center i{
     font-size: 22px;
