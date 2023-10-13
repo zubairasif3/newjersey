@@ -722,6 +722,13 @@
 }
 /*** Security card End ***/
 
+/* Access card start */
+.access-page-card .img img{
+    height: 260px;
+    object-fit: cover;
+}
+/* Access card end */
+
 /* Nj Start */
 .nj-banner-bg{
     background: linear-gradient(var(--bs-primary), var(--bs-secondary));
